@@ -1,0 +1,583 @@
+<html>
+
+<head>
+
+<title> guidehouse india </title>
+
+<H1 style="text-align:center;"></H1><img src="./images/guide.png" alt="Gh" style="width:250px;height:70px;">
+<hr>
+
+
+
+<style>
+  body  {
+  background-image: url("https://cdn.shopify.com/s/files/1/0142/1757/6506/products/J08100.jpg?v=1661320115");
+  
+}
+  .topnav a {
+  float: left;
+  display: block;
+  color:#b6ec13;
+  background-color: black;
+  border-radius: 50px;
+  text-align: center;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topnav a:hover {
+  background-color:#b6ec13;
+  color: black;
+}
+
+.container {
+  margin: 30px auto;
+}
+
+.project-detail-wrapper {
+  position: relative;
+  width: 600px;
+  margin: 0 auto 30px auto;
+  border: 1px solid #f7f7f9;
+}
+
+.skill-matrix-warpper {
+  position: relative;
+}
+
+.main-heading {
+  background-color: #bdf516;
+  
+  color: #8a97a0;
+  font-weight: 600;
+  border-radius:200%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.section-headings {
+  color: #bdf516;
+  background-color: black;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #ccccccb3;
+  width: 222px;
+  padding: 5px 10px;
+  margin: 0 auto;
+  position: relative;
+}
+.section-headings:before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-top: 1px solid #DCDCDC;
+  top: 50%;
+  width: 100%;
+  right: 100%;
+  margin-right: 15px;
+}
+.section-headings:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-top: 1px solid #DCDCDC;
+  top: 50%;
+  width: 100%;
+  left: 100%;
+  margin-left: 15px;
+}
+
+.tech-skill-list {
+  margin: 30px 0;
+}
+.tech-skill-list section {
+  margin: 0 5px;
+}
+
+.behavior-skill-list {
+  margin: 30px 0;
+}
+.behavior-skill-list section {
+  margin: 0 5px;
+}
+
+.two-header {
+  display: inline-block;
+}
+.two-header:nth-child(2) {
+  position: relative;
+  left: 36%;
+}
+
+form {
+  margin: 0 5px;
+}
+form .form-group {
+  margin: 0 0 30px 0;
+}
+form .form-group label {
+  font-family: "Montserrat", sans-serif;
+  font-size: rem(16px);
+  line-height: 20px;
+  color: black;
+  margin-bottom: 10px;
+  display: block;
+}
+form .form-group .dark-text {
+  font-weight: bold;
+}
+form .form-group input::placeholder {
+  color: #A9A9A9;
+  font-size: 12px;
+}
+form .form-group .form-control {
+  border: 1px solid #ced4da;
+  border-radius: 0;
+  background: #f9f9f9;
+  transition: border 0.5s ease;
+}
+form .form-group .form-control:focus {
+  box-shadow: none;
+  background: #fbfafa;
+  border: 1px solid #80bdff;
+}
+form .form-group .input-size {
+  display: inline-block;
+  width: 33%;
+  margin-right: 35px;
+}
+form .form-group .input-size:last-child {
+  margin-right: 0;
+}
+form .form-group .skill-set {
+  display: inline-block;
+  width: 31%;
+  margin-right: 35px;
+}
+form .form-group .margin-zero {
+  margin-right: 0;
+}
+form .form-group .plus-btn {
+  position: relative;
+  color: #000;
+  transition: color 0.4s ease;
+}
+form .form-group .plus-btn:hover {
+  color: #3f51b5;
+}
+form .form-group .plus-btn:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+form .form-group .tooltiptext {
+  visibility: hidden;
+  opacity: 0;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 65%;
+  margin-left: -60px;
+}
+form .form-group .tooltiptext:after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.btn {
+  margin-right: 20px;
+}
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.btn-submit {
+  background: #bdf516;
+  color: black;
+  width: 200px;
+  border-radius: 15px;
+  padding: 10px 12px;
+
+  margin: 4px 2px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  box-shadow: 0 4px 15px 0 rgba(13, 85, 194, 0.65);
+}
+.btn-submit:hover {
+  background-color: black;
+  color: #bdf516;
+}
+
+
+.hr {
+  border: 1px solid #E3E3E3;
+  margin: 20px 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #384047;
+}
+
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type=text],
+input[type=file],
+input[type=date],
+input[type=datetime],
+input[type=email],
+input[type=number],
+input[type=search],
+input[type=tel],
+input[type=time],
+input[type=url],
+textarea,
+select {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #fff;
+  background-color: #bdf516;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #b6ec13;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  form {
+    max-width: 480px;
+  }
+}
+
+</style>
+
+</head>
+
+<body>
+  <div class="topnav">
+    <a href="./guidehouse-main.html">Home</a>
+    <div class="row">
+        <div class="col-md-12">
+          <form action="index.html" method="post">
+            <h1> Welcome Expert! </h1>
+            
+            <fieldset>
+              
+              <legend> Your Basic Info</legend>
+            
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name">
+
+              <label for="Designation">Designation:</label>
+              <input type="text" id="Designation" name="Designation">
+
+              <label for="Department">Department:</label>
+              <input type="text" id="Department" name="Department">
+            
+              <label for="email">Email:</label>
+              <input type="email" id="mail" name="user_email">
+           
+              <label for="contact">Contact:</label>
+              <input type="text" id="Contact"  name="Contact">
+              <label for="experience">Experience:</label>
+              <select name="experience"> 
+    
+                <option value=""></option>
+                <option value="0-1 year">1 year or less</option>
+                
+                <option value="1-3 years">1 - 3 years</option>
+                
+                <option value="over 3 years">more than 3 years</option>
+                
+                </select>
+                <label for="pic">Upload your photo</label>
+                <input type="file" id="myfile" name="filename">
+            
+           
+        
+			<h2 class="main-heading">Skill Matrix</h2>
+			
+				<div class="form-tech-wrapper">
+					<h3 class="section-headings">Technical skills</h3>
+					<div class="tech-skill-list">
+                      
+                                  
+						<section class="tools-sec">
+                            <h4>Tools/Languages</h4>
+                            <div class="form-row">
+                                <div class="form-group col">
+                                    <label for="emp_name">Python</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Choose...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label for="emp_name">HTML,CSS</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Choose...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label for="emp_name">C#</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Choose...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label for="emp_name">Spotfire BI</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Choose...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label for="emp_name">Excel</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Choose...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label for="emp_name">Javascript</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Choose...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label for="emp_name">SQL</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Choose...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label for="emp_name">R</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Choose...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </section>
+						</div>
+                <div class="form-behaviour-wrapper">
+                    <h3 class="section-headings">Behavioural skills</h3>
+                    <div class="behavior-skill-list">
+                        <section class="preoactive-personality-sec">
+                            <div class="form-row">
+                                <div class="form-group col">
+                                    <label for="emp_name">Communication</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Choose...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label for="emp_name">Adaptability</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Choose...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </section>
+                       
+                                <div class="form-group col">
+                                    <label for="emp_name">Time Managment</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Choose...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label for="emp_name">Patience</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Choose...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </section>
+                                <div class="form-group col">
+                                    <label for="emp_name">Manageability</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Choose...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label for="emp_name">Critical Thinking</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Choose...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </section>   
+                       </div>
+                </div>
+              </fieldset>
+                <div class="form-row hr"></div>
+                <div class="submit-sec">
+                    <button class="btn btn-submit" onclick="alert('Form submitted!')">Submit</button>
+                </div>
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>
+

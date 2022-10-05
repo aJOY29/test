@@ -1,0 +1,94 @@
+*{
+    background-color: rgb(227, 224, 224);
+}
+*{
+    font-family:Nunito, sans-serif;
+  }
+.logo-image{
+    padding-left: 50px;
+}
+.menu{
+    float: right;
+    padding-right: 50px;
+}
+
+.menu ul{
+    display: flex;
+   
+    list-style: none;
+}
+
+.menu ul li{
+    padding: 20px;
+    color: rgb(57, 56, 56);
+}
+
+.middle-text{
+    text-align: center;
+    padding-top: 3%;
+}
+
+.signin-button{
+    padding-top: 8%;
+    text-align: center;
+}
+
+.signin-button button{
+    width: 120px;
+    font-size: 12px;
+    height:35px;
+    margin: 5px;
+    background-color: rgba(175, 233, 17, 0.884);
+    border: none;
+}
+
+.signin-button button{
+    cursor: pointer;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 15% 89%;
+    margin: 0px 50px 0px 50px;
+    background-color: black;
+    margin-top: 50px;
+    text-align: left;
+    height: 170px;
+}
+
+.footer-para p,.footer-para{
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+}
+
+.footer-img ,.footer-img img{
+    background-color: black;
+    padding-top: 20px;
+}
+
+.topnav {
+    overflow: hidden;
+  
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 18px 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+
+
+
+
+
+
+
+
+
+

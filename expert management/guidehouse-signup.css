@@ -1,0 +1,124 @@
+* {
+    background-color: rgb(227, 224, 224);
+}
+*{
+    font-family:Nunito, sans-serif;
+  }
+.Signin-box {
+    background-color: white;
+    width: 300px;
+    position: relative;
+    left: 35%;
+    text-align: center;
+    padding: 15px;
+}
+
+.Signin-box h1 {
+    background-color: white;
+}
+
+.Signin-box p {
+    color: rgb(71, 70, 70);
+    background-color: white;
+}
+
+.Signin-box input {
+    width: 200px;
+    height: 30px;
+    border: solid 2px rgb(193, 189, 189);
+    margin-top: 5px;
+    background-color: white;
+}
+
+.Signin-box button {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(151, 213, 7);
+    border: none;
+    color: white;
+    margin-top: 10px;
+}
+
+.sign-in-footer {
+    display: grid;
+    grid-template-columns: 20% 10% 30% 40%;
+    text-align: center;
+    padding-top: 20px;
+    height: 120px;
+    padding-top: 30px;
+
+}
+.sign-in-footer-img img {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    padding-top: 35px;
+}
+
+
+.sign-in-footer div,
+.sign-in-footer li,
+.sign-in-footer p {
+    background-color: black;
+
+}
+
+.sign-in-footer-li-1 ul{
+        list-style: none;
+        color: white;
+        background-color: black;
+        line-height: 25px;
+        font-size: 14px;
+        text-align: left;
+    }
+
+.sign-in-footer-li-2 ul {
+    list-style: none;
+    color: white;
+    background-color: black;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.sign-in-footer-subscribe-box {
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+.sign-in-footer-subscribe-box p {
+    color: white;
+}
+
+.subscribe-box {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 25px;
+}
+
+.sign-in-footer-subscribe-box button {
+    width: 100px;
+    height: 28px;
+    border-radius: 5px;
+    background-color: rgba(145, 230, 9, 0.927);
+    color: white;
+}
+.sign-in-footer-subscribe-box ul {
+    list-style: none;
+    background-color: black;
+    display: flex;
+    padding-left: 0px;
+}
+
+
+.sign-in-footer-subscribe-box ul li {
+    padding-right: 8px;
+    background-color: none;
+    text-align: left;
+   
+}
+
